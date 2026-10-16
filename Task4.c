@@ -3,6 +3,7 @@ int name();
 int date();
 int main()
 {
+    setlocale(LC_ALL, ".UTF-8");
     name();
     date();
     
